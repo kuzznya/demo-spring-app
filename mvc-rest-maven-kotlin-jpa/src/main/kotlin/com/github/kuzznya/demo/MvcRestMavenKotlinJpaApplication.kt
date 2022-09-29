@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DemoMavenKotlinApplication
+class MvcRestMavenKotlinJpaApplication
 
 fun main(args: Array<String>) {
-    runApplication<DemoMavenKotlinApplication>(*args)
+    runApplication<MvcRestMavenKotlinJpaApplication>(*args)
 }
